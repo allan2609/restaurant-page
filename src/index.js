@@ -6,4 +6,6 @@ document.querySelector(".home").addEventListener("click", home);
 document.querySelector(".menu").addEventListener("click", menu);
 document.querySelector(".about").addEventListener("click", about);
 
+//document.body.style.backgroundImage = "url('../src/image0.jpeg')"; 
+
 home();
