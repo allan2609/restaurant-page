@@ -6,9 +6,14 @@ function home() {
   const description = document.createElement("p");
   description.textContent = "In porttitor, tortor vitae ultricies pharetra, nibh mauris bibendum metus, dignissim volutpat magna metus dignissim tellus. Etiam luctus neque non nulla tincidunt accumsan eget a nulla.";
 
+  const restaurantPhoto = document.createElement("img");
+  restaurantPhoto.className = "restaurant-photo";
+  restaurantPhoto.src = "../src/restaurant.jpg";
+
   document.querySelector("#content").textContent = "";
   document.querySelector("#content").appendChild(title);
   document.querySelector("#content").appendChild(description);
+  document.querySelector("#content").appendChild(restaurantPhoto);
 }
 
 export default home;
