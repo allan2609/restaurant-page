@@ -8,7 +8,7 @@ function home() {
 
   const restaurantPhoto = document.createElement("img");
   restaurantPhoto.className = "restaurant-photo";
-  restaurantPhoto.src = "../src/restaurant.jpg";
+  restaurantPhoto.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/restaurant.JPG";
 
   document.querySelector("#content").textContent = "";
   document.querySelector("#content").appendChild(title);
