@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Roboto, sans-serif;
+  align-items: center;
+}
+
+.bg-image {
+  background-image: url(../src/image0.jpeg); 
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  align-content: space-evenly;
+}
+
+.container {
+  width: min(65rem, 100%);
+}
+
+button {
+  display: flex;
+  flex: 1;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  opacity: 0.87;
+  font-size: 1.2rem;
+  justify-content: center;
+  background-color: #debd8c;
+  border: 1px solid darkgray;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: blanchedalmond;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: ivory;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-left: min(5rem, 10vmin);
+  padding-right: min(5rem, 10vmin);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(5px);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.left-button, .right-button {
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: none;
+  transition: all .3s ease-in-out;
+}
+
+.menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.carousel-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 44px 0;
+  transition: all 0.25s ease-in;
+}
+
+.carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  padding: 50px 10px;
+  display: flex;
+  gap: 48px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.item-list::-webkit-scrollbar {
+  display: none;
+}
+
+.item-list div p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.prev-btn {
+  background: none;
+  cursor: pointer;
+}
+
+.next-btn {
+  cursor: pointer;
+}
+
+.item {
+  scroll-snap-align: center;
+  min-width: 7.5rem;
+  height: 7.5rem;
+  background-color: deeppink;
+  border-radius: 0.5rem;
+}
+
+.menu-image {
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.restaurant-photo {
+  margin-top: 2rem;
+  max-width: 85%;
+}
