@@ -16,7 +16,7 @@ function menu() {
   const itemOne = document.createElement("div");
   const imageOne = document.createElement("img");
   imageOne.className = "menu-image";
-  imageOne.src = "../src/pizza1.jpg";
+  imageOne.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/pizza1.jpg";
   const itemOneName = document.createElement("p");
   itemOneName.textContent = "Pizza Pepperoni 29€";
   itemOne.appendChild(imageOne);
@@ -25,7 +25,7 @@ function menu() {
   const itemTwo = document.createElement("div");
   const imageTwo = document.createElement("img");
   imageTwo.className = "menu-image";
-  imageTwo.src = "../src/burger1.jpg";
+  imageTwo.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/burger1.jpg";
   const itemTwoName = document.createElement("p");
   itemTwoName.textContent = "Cheeseburger 19€";
   itemTwo.appendChild(imageTwo);
@@ -34,7 +34,7 @@ function menu() {
   const itemThree = document.createElement("div");
   const imageThree = document.createElement("img");
   imageThree.className = "menu-image";
-  imageThree.src = "../src/fries1.jpg";
+  imageThree.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/fries1.jpg";
   const itemThreeName = document.createElement("p");
   itemThreeName.textContent = "Crispy Fries 15€";
   itemThree.appendChild(imageThree);
@@ -43,7 +43,7 @@ function menu() {
   const itemFour = document.createElement("div");
   const imageFour = document.createElement("img");
   imageFour.className = "menu-image";
-  imageFour.src = "../src/sushi1.jpg";
+  imageFour.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/sushi1.jpg";
   const itemFourName = document.createElement("p");
   itemFourName.textContent = "Tempura Sushi 33€";
   itemFour.appendChild(imageFour);
@@ -52,7 +52,7 @@ function menu() {
   const itemFive = document.createElement("div");
   const imageFive = document.createElement("img");
   imageFive.className = "menu-image";
-  imageFive.src = "../src/icecream1.jpg";
+  imageFive.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/icecream1.jpg";
   const itemFiveName = document.createElement("p");
   itemFiveName.textContent = "Ice Cream 11€";
   itemFive.appendChild(imageFive);
@@ -61,7 +61,7 @@ function menu() {
   const itemSix = document.createElement("div");
   const imageSix = document.createElement("img");
   imageSix.className = "menu-image";
-  imageSix.src = "../src/coctail1.jpg";
+  imageSix.src = "https://raw.githubusercontent.com/allan2609/restaurant-page/main/dist/coctail1.jpg";
   const itemSixName = document.createElement("p");
   itemSixName.textContent = "Coctail 9€";
   itemSix.appendChild(imageSix);
